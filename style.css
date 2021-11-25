@@ -1,0 +1,155 @@
+*{
+ box-sizing: border-box;
+margin: 0;
+padding:0;
+}
+body{
+    font-family: 'Catamaran', sans-serif;
+    line-height: 1.5;
+    color:whitesmoke;
+    font-size: 1.1rem;
+}
+h1, h2, h3{
+line-height:1.3;
+font-size: 1.2em;
+}
+.banner-area{
+  background-image: url("pictures/background-6.jpg") ; 
+  background-image: cover;
+  width: 100%; 
+  background-size: 100% ;
+  overflow: hidden;
+  margin: 0;
+  padding: 0 7em 0 0;
+  padding-bottom: 8em;
+  background-blend-mode: multiply;
+
+}
+
+.bags{
+    text-decoration: none;
+     font-size: 1.5em;
+     float: left;
+     letter-spacing: .5em;
+     padding-top: 0;
+     margin: 0;
+     font-weight: bold;
+   }
+
+a{
+    color:whitesmoke;
+    text-decoration: none;
+    float: right;
+    font-size: 1.2em;
+    font-weight:bold;
+    padding: 0 .3em;
+    margin-top: 0;
+}
+h2, .banner-area{
+    justify-content: center;
+    text-align: center;
+    padding-top: 7%;
+    padding: left 0;
+    
+}
+.banner-area, .nav-bar {
+   margin-right: 0;
+   padding: right 0;
+   margin-top: 0;
+}
+a:hover{
+background-color: rgba(255, 255, 255, .4);    
+}
+/* Section-a */
+.section-a .gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap:1em;
+    
+}
+ .gallery{
+    position: relative;
+}
+.img-text {
+    position: absolute;
+    color: white;
+    bottom:.2em;
+    right:.2em;
+    background-color: black;
+    /*padding-left: .2em;
+    padding-right:.2em;*/
+}
+.section-b{
+    position: relative;
+    background: url("pictures/valentino-bags.jpg") no-repeat bottom center/cover;
+    height: 500px;
+ 
+}
+.section-b-inner{
+  color: white;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:left;
+  margin: 0;
+  max-width: 500px;
+  padding: 4rem 0;
+}
+.section-b-inner h3{
+font-size: 2em;
+margin-left: 0;
+margin-bottom: .1em;
+/*align-items:flex-start;
+justify-content: left;
+padding-right: 2em;*/
+}
+.section-b-inner p{
+    font-size: 1.5em;
+   margin-top:1rem;
+   /* margin-left: 0;*/
+}
+.section-footer{
+    background: #333;
+    color: white;
+   padding: 4rem 0; 
+}
+.section-footer .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+grid-gap: 1rem;
+}
+.section-footer h3{
+    font-size: 1em;
+    margin-bottom: 1rem;
+    text-align: center;
+    
+}
+.container li{
+    list-style: none;
+    font-size: 1em;
+}
+.section-footer a{
+   line-height: 1.2; 
+   margin-left: 0;
+   font-size: 1em;
+   
+}
+ .section-footer a > i{
+    margin: 0;
+    padding: 0;
+    color:#555;
+    
+   
+    
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0 , 0 , .3);
+
+}
